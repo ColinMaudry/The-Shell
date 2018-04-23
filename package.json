@@ -3,6 +3,9 @@
     "description" : "Simple theme for Ghost. Pure CSS. Web Safe fonts.",
     "demo": "https://demo.ghost.io",
     "version": "0.1.1",
+    "config": {
+        "posts_per_page": 10
+    },
     "engines": {
         "ghost": ">=0.4.0 <1.0.0"
     },
@@ -13,7 +16,7 @@
     },
     "author": {
         "name": "Colin Maudry",
-        "email": "colin@maudry.com",
+        "email": "colin@maudry.com"
     },
     "gpm": {
         "type": "theme",
