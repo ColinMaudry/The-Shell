@@ -12,9 +12,8 @@
         "mobile": "assets/screenshot-mobile.jpg"
     },
     "author": {
-        "name": "Dmitry Lebedev",
-        "email": "mityalebedev@me.com",
-        "url": "https://dmitrylebedev.me"
+        "name": "Colin Maudry",
+        "email": "colin@maudry.com",
     },
     "gpm": {
         "type": "theme",
@@ -29,8 +28,8 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/mityalebedev/The-Shell.git"
+        "url": "https://github.com/ColinMaudry/The-Shell.git"
     },
-    "bugs": "https://github.com/mityalebedev/The-Shell/issues",
-    "contributors": "https://github.com/mityalebedev/The-Shell/graphs/contributors"
+    "bugs": "https://github.com/ColinMaudry/The-Shell/issues",
+    "contributors": "https://github.com/ColinMaudry/The-Shell/graphs/contributors"
 }
