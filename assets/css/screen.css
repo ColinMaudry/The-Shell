@@ -8,6 +8,14 @@
   src: url("../fonts/icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.svg#icons") format("svg");
   font-weight: normal;
   font-style: normal; }
+
+@font-face {
+      font-family: 'Open Sans';
+      src: url('../fonts/OpenSans-Regular-webfont.eot');
+      src: url('OpenSans-Regular-webfont.woff') format('woff')
+      font-weight: normal;
+      font-style: normal; }
+
 .icon-ghost, .icon-feed, .icon-twitter, .icon-google-plus, .icon-facebook {
   font-family: 'icons';
   speak: none;
@@ -20,7 +28,7 @@
   text-decoration: none; }
 
 .icon-ghost-text {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Open Sans", sans-serif;
 .icon-ghost:before {
   content: "\e000"; }
 .icon-feed:before {
@@ -44,10 +52,10 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
   font-size: 2.0rem;
   line-height: 1.6em;
-  color: #B2B6BD;
   background: #2b303b; }
 
 ::-moz-selection {
