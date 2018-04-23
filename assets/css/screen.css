@@ -12,7 +12,7 @@
 @font-face {
       font-family: 'Open Sans';
       src: url('../fonts/OpenSans-Regular-webfont.woff');
-      src: url('OpenSans-Regular-webfont.woff') format('woff')
+      src: url('OpenSans-Regular-webfont.woff') format('woff');
       font-weight: normal;
       font-style: normal; }
 
@@ -28,7 +28,7 @@
   text-decoration: none; }
 
 .icon-ghost-text {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;}
 .icon-ghost:before {
   content: "\e000"; }
 .icon-feed:before {
