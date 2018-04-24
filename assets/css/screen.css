@@ -7,15 +7,9 @@
   src: url("../fonts/icons.eot");
   src: url("../fonts/icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.svg#icons") format("svg");
   font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-      font-family: 'Open Sans';
-      src: url('../fonts/OpenSans-Regular-webfont.woff');
-      src: url('OpenSans-Regular-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal; }
-
+  font-style: normal;
+}
+/* line 15, ../scss/theme/_icons.scss */
 .icon-ghost, .icon-feed, .icon-twitter, .icon-google-plus, .icon-facebook {
   font-family: 'icons';
   speak: none;
@@ -25,158 +19,249 @@
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+/* line 29, ../scss/theme/_icons.scss */
 .icon-ghost-text {
-  font-family: "Open Sans", sans-serif;}
+  font-family: "Courier New", Courier, monospace;
+}
+/* line 32, ../scss/theme/_icons.scss */
 .icon-ghost:before {
-  content: "\e000"; }
+  content: "\e000";
+}
+/* line 38, ../scss/theme/_icons.scss */
 .icon-feed:before {
-  content: "\e000"; }
+  content: "\e000";
+}
+/* line 44, ../scss/theme/_icons.scss */
 .icon-twitter:before {
   content: "\e002";
-  font-size: 1.1em; }
+  font-size: 1.1em;
+}
+/* line 51, ../scss/theme/_icons.scss */
 .icon-google-plus:before {
-  content: "\e003"; }
+  content: "\e003";
+}
+/* line 57, ../scss/theme/_icons.scss */
 .icon-facebook:before {
-  content: "\e004"; }
+  content: "\e004";
+}
 
 /* ==========================================================================
    2. General - Setting up some base styles
    ========================================================================== */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Regular-webfont.woff");
+  src: url("OpenSans-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Bold-webfont.woff");
+  src: url("OpenSans-Bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-BoldItalic-webfont.woff");
+  src: url("OpenSans-BoldItalic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+/* line 29, ../scss/theme/_general.scss */
 html {
   height: 100%;
   max-height: 100%;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+}
 
+/* line 35, ../scss/theme/_general.scss */
 body {
   height: 100%;
   max-height: 100%;
-  font-family: "Open Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", "Calibri", sans-serif;
   font-size: 2.0rem;
   line-height: 1.6em;
   color: #bdb1b1;
-  background: #2b313b; }
+  background: #2b303b;
+}
 
-::-moz-selection {
-  color: #1c212b;
-  background: #a3be8c;
-  text-shadow: none; }
-
+/* line 45, ../scss/theme/_general.scss */
 ::selection {
   color: #1c212b;
   background: #a3be8c;
-  text-shadow: none; }
+  text-shadow: none;
+}
 
+/* line 51, ../scss/theme/_general.scss */
 h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 0;
   letter-spacing: 2px;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
+/* line 62, ../scss/theme/_general.scss */
 h1 a {
-  color: #c7982f; }
+  color: #2f5ac7;
+}
 
+/* line 62, ../scss/theme/_general.scss */
 h2 a {
-  color: #c7982f; }
+  color: #2f5ac7;
+}
 
+/* line 62, ../scss/theme/_general.scss */
 h3 a {
-  color: #c7982f; }
+  color: #2f5ac7;
+}
 
+/* line 62, ../scss/theme/_general.scss */
 h4 a {
-  color: #c7982f; }
+  color: #2f5ac7;
+}
 
+/* line 62, ../scss/theme/_general.scss */
 h5 a {
-  color: #c7982f; }
+  color: #2f5ac7;
+}
 
+/* line 62, ../scss/theme/_general.scss */
 h6 a {
-  color: #c7982f; }
+  color: #2f5ac7;
+}
 
+/* line 68, ../scss/theme/_general.scss */
 h1 {
   font-size: 5rem;
   line-height: 1.2em;
-  text-indent: -3px; }
+  text-indent: -3px;
+}
 
+/* line 74, ../scss/theme/_general.scss */
 h2 {
   font-size: 4rem;
   line-height: 1.2em;
-  text-indent: -2px; }
+  text-indent: -2px;
+}
 
+/* line 80, ../scss/theme/_general.scss */
 h3 {
-  font-size: 3.5rem; }
+  font-size: 3.5rem;
+}
 
+/* line 84, ../scss/theme/_general.scss */
 h4 {
-  font-size: 3rem; }
+  font-size: 3rem;
+}
 
+/* line 88, ../scss/theme/_general.scss */
 h5 {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+}
 
+/* line 92, ../scss/theme/_general.scss */
 h6 {
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
+/* line 96, ../scss/theme/_general.scss */
 a {
-  color: #62bfbd;
-  -webkit-transition: color ease 0.3s;
-  transition: color ease 0.3s; }
-  a:hover {
-    color: #a3be8c; }
+  color: #bf6165;
+  transition: color ease 0.3s;
+}
+/* line 99, ../scss/theme/_general.scss */
+a:hover {
+  color: #a3be8c;
+}
 
+/* line 105, ../scss/theme/_general.scss */
 p, ul, ol {
-  margin: 1.6em 0; }
+  margin: 1.6em 0;
+}
 
+/* line 109, ../scss/theme/_general.scss */
 ol ol, ul ul,
 ul ol, ol ul {
-  margin: 0.4em 0; }
+  margin: 0.4em 0;
+}
 
+/* line 114, ../scss/theme/_general.scss */
 hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #424650;
+  border-top: 1px solid #425050;
   margin: 3.2em 0;
-  padding: 0; }
+  padding: 0;
+}
 
+/* line 123, ../scss/theme/_general.scss */
 blockquote {
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 1.6em 0 1.6em -2.2em;
   padding: 0 0 0 1.6em;
-  border-left: #4f586b 0.4em solid; }
-  blockquote p {
-    margin: 0.8em 0;
-    font-style: italic; }
-  blockquote small {
-    display: inline-block;
-    margin: 0.8em 0 0.8em 1.5em;
-    font-size: 0.9em;
-    color: #ccc; }
-    blockquote small:before {
-      content: '\2014 \00A0'; }
-  blockquote cite {
-    font-weight: bold; }
-    blockquote cite a {
-      font-weight: normal; }
+  border-left: #4f586b 0.4em solid;
+}
+/* line 129, ../scss/theme/_general.scss */
+blockquote p {
+  margin: 0.8em 0;
+  font-style: italic;
+}
+/* line 133, ../scss/theme/_general.scss */
+blockquote small {
+  display: inline-block;
+  margin: 0.8em 0 0.8em 1.5em;
+  font-size: 0.9em;
+  color: #ccc;
+}
+/* line 138, ../scss/theme/_general.scss */
+blockquote small:before {
+  content: '\2014 \00A0';
+}
+/* line 140, ../scss/theme/_general.scss */
+blockquote cite {
+  font-weight: bold;
+}
+/* line 142, ../scss/theme/_general.scss */
+blockquote cite a {
+  font-weight: normal;
+}
 
+/* line 149, ../scss/theme/_general.scss */
 dl {
-  margin: 1.6em 0; }
-  dl dt {
-    float: left;
-    width: 180px;
-    overflow: hidden;
-    clear: left;
-    text-align: right;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-weight: bold;
-    margin-bottom: 1em; }
-  dl dd {
-    margin-left: 200px;
-    margin-bottom: 1em; }
+  margin: 1.6em 0;
+}
+/* line 151, ../scss/theme/_general.scss */
+dl dt {
+  float: left;
+  width: 180px;
+  overflow: hidden;
+  clear: left;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+/* line 163, ../scss/theme/_general.scss */
+dl dd {
+  margin-left: 200px;
+  margin-bottom: 1em;
+}
 
+/* line 171, ../scss/theme/_general.scss */
 mark {
-  background-color: #ffc336; }
+  background-color: #ffc336;
+}
 
+/* line 175, ../scss/theme/_general.scss */
 code, tt {
   padding: 1px 3px;
   /*font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;*/
@@ -185,9 +270,12 @@ code, tt {
   white-space: pre;
   border: 1px solid #424a5a;
   background: #4f586b;
-  border-radius: 2px; }
+  border-radius: 2px;
+}
 
+/* line 186, ../scss/theme/_general.scss */
 pre {
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 1.6em 0;
   border: 1px solid #424a5a;
@@ -199,16 +287,20 @@ pre {
   white-space: pre;
   overflow: auto;
   background: #4f586b;
-  border-radius: 3px; }
+  border-radius: 3px;
+}
 
+/* line 202, ../scss/theme/_general.scss */
 pre code, tt {
   font-size: inherit;
   white-space: -moz-pre-wrap;
   white-space: pre-wrap;
   background: transparent;
   border: none;
-  padding: 0; }
+  padding: 0;
+}
 
+/* line 211, ../scss/theme/_general.scss */
 kbd {
   display: inline-block;
   margin-bottom: 0.4em;
@@ -220,78 +312,105 @@ kbd {
   font-weight: bold;
   background: #f4f4f4;
   border-radius: 4px;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 #fff inset; }
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 #fff inset;
+}
 
+/* line 227, ../scss/theme/_general.scss */
 table {
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 1.6em 0;
   width: 100%;
   max-width: 100%;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
+/* line 236, ../scss/theme/_general.scss */
 table th,
 table td {
   padding: 8px;
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #424a5a; }
+  border-top: 1px solid #424a5a;
+}
 
+/* line 245, ../scss/theme/_general.scss */
 table th {
-  color: #000; }
+  color: #000;
+}
 
+/* line 247, ../scss/theme/_general.scss */
 table caption + thead tr:first-child th,
 table caption + thead tr:first-child td,
 table colgroup + thead tr:first-child th,
 table colgroup + thead tr:first-child td,
 table thead:first-child tr:first-child th,
 table thead:first-child tr:first-child td {
-  border-top: 0; }
+  border-top: 0;
+}
 
+/* line 256, ../scss/theme/_general.scss */
 table tbody + tbody {
-  border-top: 2px solid #efefef; }
+  border-top: 2px solid #efefef;
+}
 
+/* line 258, ../scss/theme/_general.scss */
 table table table {
-  background-color: #fff; }
+  background-color: #fff;
+}
 
+/* line 260, ../scss/theme/_general.scss */
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-  background-color: #4f586b; }
+  background-color: #4f586b;
+}
 
+/* line 266, ../scss/theme/_general.scss */
 table.plain tbody > tr:nth-child(odd) > td,
 table.plain tbody > tr:nth-child(odd) > th {
-  background: transparent; }
+  background: transparent;
+}
 
+/* line 273, ../scss/theme/_general.scss */
 button, input, select, textarea {
   background: #4f586b;
   border: 1px solid #424a5a;
-  color: #B2B6BD;
-  outline-color: #bf6165; }
+  color: #bdb1b1;
+  outline-color: #bf6165;
+}
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
    ========================================================================== */
 /* Hides shit */
+/* line 6, ../scss/theme/_utilities.scss */
 .hidden {
   text-indent: -9999px;
   visibility: hidden;
-  display: none; }
+  display: none;
+}
 
 /* Creates a responsive wrapper that makes our content scale nicely */
+/* line 13, ../scss/theme/_utilities.scss */
 .inner {
   position: relative;
   width: 80%;
   max-width: 700px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 /* Centres vertically yo. (IE8+) */
+/* line 21, ../scss/theme/_utilities.scss */
 .vertical {
   display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 /* ==========================================================================
    4. General - The main styles for the the theme
    ========================================================================== */
+/* line 4, ../scss/theme/_theme.scss */
 #site-head {
   position: relative;
   display: table;
@@ -299,168 +418,235 @@ button, input, select, textarea {
   height: 60%;
   margin-bottom: 5rem;
   text-align: center;
-  color: #a0add5;
+  color: #583d40;
   background: #1c212b no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+}
 
+/* line 17, ../scss/theme/_theme.scss */
 #blog-logo {
   width: 100px;
   border-radius: 50%;
   overflow: hidden;
   display: block;
   margin: 0 auto;
-  border: 5px solid #bf6165; }
-  #blog-logo:before {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: block;
-    margin: 0 auto;
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: none;
-    -webkit-transition: background .3s linear;
-    transition: background .3s linear;
-    border: 5px solid #bf6165; }
-  #blog-logo:hover:before {
-    background: rgba(204, 31, 39, 0.5); }
-  #blog-logo img {
-    display: block;
-    max-height: 100px;
-    width: auto;
-    line-height: 0;
-    border-radius: 50%; }
-  #blog-logo-title {
-    margin: 10px 0 10px 0;
-    font-size: 5rem;
-    letter-spacing: -1px; }
-  #blog-logo-description {
-    margin: 0;
-    font-size: 1.8rem;
-    line-height: 1.5em;
-    font-weight: 300;
-    letter-spacing: 0; }
+  border: 5px solid #bf6165;
+}
+/* line 24, ../scss/theme/_theme.scss */
+#blog-logo:before {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: none;
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+  border: 5px solid #bf6165;
+}
+/* line 45, ../scss/theme/_theme.scss */
+#blog-logo:hover:before {
+  background: rgba(204, 31, 39, 0.5);
+}
+/* line 48, ../scss/theme/_theme.scss */
+#blog-logo img {
+  display: block;
+  max-height: 100px;
+  width: auto;
+  line-height: 0;
+  border-radius: 50%;
+}
+/* line 55, ../scss/theme/_theme.scss */
+#blog-logo-title {
+  margin: 10px 0 10px 0;
+  font-size: 5rem;
+  letter-spacing: -1px;
+}
+/* line 60, ../scss/theme/_theme.scss */
+#blog-logo-description {
+  margin: 0;
+  font-size: 1.8rem;
+  line-height: 1.5em;
+  font-weight: 300;
+  letter-spacing: 0;
+}
 
+/* line 71, ../scss/theme/_theme.scss */
 #back {
   color: rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 8px;
   left: 8px;
   padding: 6px;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 /* Every post, on every page, gets this style on its <article> tag */
+/* line 82, ../scss/theme/_theme.scss */
 .post {
   position: relative;
   width: 80%;
   max-width: 700px;
   margin: 4rem auto;
   padding-bottom: 4rem;
-  border-bottom: #424650 1px solid;
+  border-bottom: #425050 1px solid;
   word-break: break-word;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto; }
-  .post-title {
-    margin: 0;
-    color: #a0add5; }
-    .post-title a {
-      text-decoration: none; }
-  .post-excerpt p {
-    margin: 1.6rem 0 0 0;
-    font-size: 0.9em;
-    line-height: 1.6em; }
-  .post-meta {
-    display: inline-block;
-    margin: 0 0 5px 0;
-    font-size: 1.5rem;
-    color: #846d8f; }
-  .post a {
-    color: #a0add5;
-    text-decoration: none; }
-    .post a:hover {
-      text-decoration: underline; }
+  hyphens: auto;
+}
+/* line 91, ../scss/theme/_theme.scss */
+.post-title {
+  margin: 0;
+  color: #2f5ac7;
+}
+/* line 94, ../scss/theme/_theme.scss */
+.post-title a {
+  text-decoration: none;
+}
+/* line 98, ../scss/theme/_theme.scss */
+.post-excerpt p {
+  margin: 1.6rem 0 0 0;
+  font-size: 0.9em;
+  line-height: 1.6em;
+}
+/* line 103, ../scss/theme/_theme.scss */
+.post-meta {
+  display: inline-block;
+  margin: 0 0 5px 0;
+  font-size: 1.5rem;
+  color: #846d8f;
+}
+/* line 109, ../scss/theme/_theme.scss */
+.post a {
+  color: #846d8f;
+  text-decoration: none;
+}
+/* line 112, ../scss/theme/_theme.scss */
+.post a:hover {
+  text-decoration: underline;
+}
 
+/* line 119, ../scss/theme/_theme.scss */
 .user-meta {
   position: relative;
   padding: 0.3rem 40px 0 100px;
-  min-height: 77px; }
+  min-height: 77px;
+}
+/* line 124, ../scss/theme/_theme.scss */
 .user-image {
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+}
+/* line 129, ../scss/theme/_theme.scss */
 .user-name {
   display: block;
-  font-weight: bold; }
+  font-weight: bold;
+}
+/* line 133, ../scss/theme/_theme.scss */
 .user-bio {
   display: block;
   max-width: 440px;
   font-size: 1.4rem;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+}
 
+/* line 143, ../scss/theme/_theme.scss */
 .publish-meta {
   position: absolute;
   top: 0;
   right: 0;
   padding: 4.3rem 0 4rem 0;
-  text-align: right; }
+  text-align: right;
+}
+/* line 150, ../scss/theme/_theme.scss */
 .publish-heading {
   display: block;
-  font-weight: bold; }
+  font-weight: bold;
+}
+/* line 154, ../scss/theme/_theme.scss */
 .publish-date {
   display: block;
   font-size: 1.4rem;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+}
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post
    ========================================================================== */
+/* line 5, ../scss/theme/_post.scss */
 .post-template .post {
   margin-top: 0;
   border-bottom: none;
-  padding-bottom: 0; }
-  .post-template .post:after {
-    display: none; }
-  .post-template .post-header {
-    padding: 60px 0; }
+  padding-bottom: 0;
+}
+/* line 9, ../scss/theme/_post.scss */
+.post-template .post:after {
+  display: none;
+}
+/* line 12, ../scss/theme/_post.scss */
+.post-template .post-header {
+  padding: 60px 0;
+}
+/* line 16, ../scss/theme/_post.scss */
 .post-header #blog-logo:before {
-  margin: 60px auto; }
+  margin: 60px auto;
+}
+/* line 19, ../scss/theme/_post.scss */
 .post-content img {
   display: block;
   max-width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
+/* line 24, ../scss/theme/_post.scss */
 .post-footer {
   position: relative;
   margin: 4rem 0 0 0;
   padding: 4rem 0 0 0;
-  border-top: #424650 1px solid; }
-  .post-footer h4 {
-    font-size: 1.8rem;
-    margin: 0; }
-  .post-footer p {
-    margin: 1rem 0;
-    font-size: 1.4rem;
-    line-height: 1.6em; }
-  .post-footer .author {
-    margin-right: 180px; }
-  .post-footer .share {
-    position: absolute;
-    top: 4rem;
-    right: 0;
-    width: 140px; }
-    .post-footer .share a {
-      font-size: 1.8rem;
-      display: inline-block;
-      margin: 1.4rem 1.6rem 1.6rem 0;
-      color: #BBC7CC; }
-      .post-footer .share a:hover {
-        color: #50585D; }
+  border-top: #425050 1px solid;
+}
+/* line 29, ../scss/theme/_post.scss */
+.post-footer h4 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+/* line 33, ../scss/theme/_post.scss */
+.post-footer p {
+  margin: 1rem 0;
+  font-size: 1.4rem;
+  line-height: 1.6em;
+}
+/* line 38, ../scss/theme/_post.scss */
+.post-footer .author {
+  margin-right: 180px;
+}
+/* line 41, ../scss/theme/_post.scss */
+.post-footer .share {
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  width: 140px;
+}
+/* line 46, ../scss/theme/_post.scss */
+.post-footer .share a {
+  font-size: 1.8rem;
+  display: inline-block;
+  margin: 1.4rem 1.6rem 1.6rem 0;
+  color: #BBC7CC;
+}
+/* line 51, ../scss/theme/_post.scss */
+.post-footer .share a:hover {
+  color: #50585D;
+}
 
 /* ==========================================================================
    6. Third Party Elements - Embeds from other services
@@ -469,6 +655,7 @@ button, input, select, textarea {
    7. Pagination - Tools to let you flick between pages
    ========================================================================== */
 /* The main wrapper for our pagination links */
+/* line 6, ../scss/theme/_pagination.scss */
 .pagination {
   position: relative;
   width: 80%;
@@ -477,40 +664,53 @@ button, input, select, textarea {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.3rem;
   color: #9EABB3;
-  text-align: center; }
-  .pagination a {
-    color: #9EABB3; }
+  text-align: center;
+}
+/* line 15, ../scss/theme/_pagination.scss */
+.pagination a {
+  color: #9EABB3;
+}
 
 /* Push the previous/next links out to the left/right */
+/* line 21, ../scss/theme/_pagination.scss */
 .older-posts,
 .newer-posts {
   position: absolute;
   display: inline-block;
   padding: 0 15px;
-  border: #424650 1px solid;
+  border: #425050 1px solid;
   text-decoration: none;
   border-radius: 5px;
-  -webkit-transition: border ease 0.3s;
   transition: border ease 0.3s;
-  background: #363c4a; }
+  background: #363c4a;
+}
 
+/* line 33, ../scss/theme/_pagination.scss */
 .older-posts {
-  right: 0; }
+  right: 0;
+}
 
+/* line 37, ../scss/theme/_pagination.scss */
 .page-number {
   display: inline-block;
-  padding: 2px 0; }
+  padding: 2px 0;
+}
 
+/* line 42, ../scss/theme/_pagination.scss */
 .newer-posts {
-  left: 0; }
+  left: 0;
+}
 
+/* line 46, ../scss/theme/_pagination.scss */
 .older-posts:hover,
 .newer-posts:hover {
-  border-color: #9EABB3; }
+  border-color: #9EABB3;
+}
 
 /* ==========================================================================
    8. Footer - The bottom of every page
    ========================================================================== */
+/* line 5, ../scss/theme/_footer.scss */
 .site-footer {
   position: relative;
   margin: 8rem 0 0 0;
@@ -520,23 +720,35 @@ button, input, select, textarea {
   line-height: 1.7em;
   color: #BBC7CC;
   text-align: center;
-  background: #1c212b; }
-  .site-footer a {
-    color: #BBC7CC;
-    text-decoration: underline; }
-    .site-footer a::hover {
-      color: #50585D; }
+  background: #1c212b;
+}
+/* line 15, ../scss/theme/_footer.scss */
+.site-footer a {
+  color: #BBC7CC;
+  text-decoration: underline;
+}
+/* line 18, ../scss/theme/_footer.scss */
+.site-footer a::hover {
+  color: #50585D;
+}
 
+/* line 25, ../scss/theme/_footer.scss */
 .poweredby .icon-ghost {
   color: #bf6165;
   font-weight: 700;
-  text-decoration: none; }
-  .poweredby .icon-ghost:hover {
-    text-decoration: none; }
-  .poweredby .icon-ghost:before {
-    font-size: 1rem;
-    margin-right: 0.2em; }
+  text-decoration: none;
+}
+/* line 29, ../scss/theme/_footer.scss */
+.poweredby .icon-ghost:hover {
+  text-decoration: none;
+}
+/* line 32, ../scss/theme/_footer.scss */
+.poweredby .icon-ghost:before {
+  font-size: 1rem;
+  margin-right: 0.2em;
+}
 
+/* line 39, ../scss/theme/_footer.scss */
 .subscribe {
   width: 28px;
   height: 28px;
@@ -549,27 +761,34 @@ button, input, select, textarea {
   line-height: 2.4rem;
   border-radius: 50px;
   background: #fff;
-  -webkit-transition: box-shadow 0.5s;
-  transition: box-shadow 0.5s; }
-  .subscribe:before {
-    color: #D2DEE3;
-    font-size: 10px;
-    position: absolute;
-    top: 2px;
-    left: 9px;
-    font-weight: bold;
-    -webkit-transition: color 0.5s ease;
-    transition: color 0.5s ease; }
-  .subscribe:hover {
-    box-shadow: rgba(0, 0, 0, 0.05) 0 0 0 3px;
-    -webkit-transition: box-shadow 0.25s;
-    transition: box-shadow 0.25s; }
-    .subscribe:hover .tooltip {
-      opacity: 1;
-      top: -33px; }
-    .subscribe:hover:before {
-      color: #50585D; }
+  transition: box-shadow 0.5s;
+}
+/* line 52, ../scss/theme/_footer.scss */
+.subscribe:before {
+  color: #D2DEE3;
+  font-size: 10px;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  font-weight: bold;
+  transition: color 0.5s ease;
+}
+/* line 61, ../scss/theme/_footer.scss */
+.subscribe:hover {
+  box-shadow: rgba(0, 0, 0, 0.05) 0 0 0 3px;
+  transition: box-shadow 0.25s;
+}
+/* line 64, ../scss/theme/_footer.scss */
+.subscribe:hover .tooltip {
+  opacity: 1;
+  top: -33px;
+}
+/* line 68, ../scss/theme/_footer.scss */
+.subscribe:hover:before {
+  color: #50585D;
+}
 
+/* line 74, ../scss/theme/_footer.scss */
 .tooltip {
   opacity: 0;
   display: inline-block;
@@ -585,195 +804,324 @@ button, input, select, textarea {
   background: #50585D;
   border-radius: 20px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  -webkit-transition: opacity 0.3s ease, top 0.3s ease;
-  transition: opacity 0.3s ease, top 0.3s ease; }
-  .tooltip:after {
-    content: "";
-    border-width: 5px 5px 0 5px;
-    border-style: solid;
-    border-color: #50585D transparent;
-    display: block;
-    position: absolute;
-    bottom: -4px;
-    left: 50%;
-    margin-left: -5px;
-    z-index: 220;
-    width: 0; }
+  transition: opacity 0.3s ease, top 0.3s ease;
+}
+/* line 90, ../scss/theme/_footer.scss */
+.tooltip:after {
+  content: "";
+  border-width: 5px 5px 0 5px;
+  border-style: solid;
+  border-color: #50585D transparent;
+  display: block;
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  margin-left: -5px;
+  z-index: 220;
+  width: 0;
+}
 
 /* ==========================================================================
    9. Media Queries - Smaller than 900px
    ========================================================================== */
 @media only screen and (max-width: 900px) {
+  /* line 7, ../scss/theme/_media.scss */
   blockquote {
-    margin-left: 0; }
+    margin-left: 0;
+  }
 
+  /* line 11, ../scss/theme/_media.scss */
   #site-head {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     height: auto;
     min-height: 240px;
-    padding: 15% 0; }
+    padding: 15% 0;
+  }
 
+  /* line 20, ../scss/theme/_media.scss */
   .blog-title {
     font-size: 4rem;
-    letter-spacing: -1px; }
+    letter-spacing: -1px;
+  }
 
+  /* line 25, ../scss/theme/_media.scss */
   .blog-description {
     font-size: 1.7rem;
-    line-height: 1.5em; }
+    line-height: 1.5em;
+  }
 
+  /* line 30, ../scss/theme/_media.scss */
   .post {
     font-size: 0.9em;
-    line-height: 1.6em; }
+    line-height: 1.6em;
+  }
 
+  /* line 35, ../scss/theme/_media.scss */
   .post-template .post {
-    padding-bottom: 1rem; }
+    padding-bottom: 1rem;
+  }
 
+  /* line 39, ../scss/theme/_media.scss */
   .post-template .post-header {
-    padding: 40px 0; }
+    padding: 40px 0;
+  }
 
+  /* line 42, ../scss/theme/_media.scss */
   .post-header #blog-logo:before {
-    margin: 40px auto; }
+    margin: 40px auto;
+  }
 
+  /* line 46, ../scss/theme/_media.scss */
   h1 {
     font-size: 4.8rem;
-    text-indent: -2px; }
+    text-indent: -2px;
+  }
 
+  /* line 51, ../scss/theme/_media.scss */
   h2 {
-    font-size: 3.8rem; }
+    font-size: 3.8rem;
+  }
 
+  /* line 55, ../scss/theme/_media.scss */
   h3 {
-    font-size: 3.3rem; }
+    font-size: 3.3rem;
+  }
 
+  /* line 59, ../scss/theme/_media.scss */
   h4 {
-    font-size: 2.8rem; } }
+    font-size: 2.8rem;
+  }
+}
 /* ==========================================================================
    10. Media Queries - Smaller than 500px
    ========================================================================== */
 @media only screen and (max-width: 500px) {
+  /* line 72, ../scss/theme/_media.scss */
   #blog-logo img {
-    max-height: 80px; }
+    max-height: 80px;
+  }
 
+  /* line 75, ../scss/theme/_media.scss */
   #blog-logo {
-    width: 80px; }
+    width: 80px;
+  }
 
+  /* line 78, ../scss/theme/_media.scss */
   #blog-logo:before {
     width: 80px;
-    height: 80px; }
+    height: 80px;
+  }
 
+  /* line 82, ../scss/theme/_media.scss */
   .inner,
   .pagination {
     width: auto;
     margin-left: 16px;
-    margin-right: 16px; }
+    margin-right: 16px;
+  }
 
+  /* line 89, ../scss/theme/_media.scss */
   .post {
     width: auto;
     margin-left: 16px;
     margin-right: 16px;
     font-size: 0.8em;
-    line-height: 1.6em; }
+    line-height: 1.6em;
+  }
 
+  /* line 97, ../scss/theme/_media.scss */
   #site-head {
-    padding: 10% 0; }
+    padding: 10% 0;
+  }
 
+  /* line 101, ../scss/theme/_media.scss */
   .blog-title {
-    font-size: 3rem; }
+    font-size: 3rem;
+  }
 
+  /* line 105, ../scss/theme/_media.scss */
   .blog-description {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+  }
 
+  /* line 110, ../scss/theme/_media.scss */
   h1, h2 {
     font-size: 3rem;
     line-height: 1.1em;
-    letter-spacing: -1px; }
+    letter-spacing: -1px;
+  }
 
+  /* line 116, ../scss/theme/_media.scss */
   h3 {
-    font-size: 2.8rem; }
+    font-size: 2.8rem;
+  }
 
+  /* line 120, ../scss/theme/_media.scss */
   h4 {
-    font-size: 2.3rem; }
+    font-size: 2.3rem;
+  }
 
+  /* line 124, ../scss/theme/_media.scss */
   .post-template .post {
-    padding-bottom: 0; }
+    padding-bottom: 0;
+  }
 
+  /* line 128, ../scss/theme/_media.scss */
   .post-template .post-header {
-    padding: 30px 0; }
+    padding: 30px 0;
+  }
 
+  /* line 131, ../scss/theme/_media.scss */
   .post-header #blog-logo:before {
-    margin: 30px auto; }
+    margin: 30px auto;
+  }
 
+  /* line 134, ../scss/theme/_media.scss */
   .post-meta {
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+  }
 
+  /* line 138, ../scss/theme/_media.scss */
   .post-footer {
     padding: 4rem 0;
-    text-align: center; }
+    text-align: center;
+  }
 
+  /* line 143, ../scss/theme/_media.scss */
   .post-footer .author {
     margin: 0 0 2rem 0;
     padding: 0 0 1.6rem 0;
-    border-bottom: #424650 1px dashed; }
+    border-bottom: #425050 1px dashed;
+  }
 
+  /* line 149, ../scss/theme/_media.scss */
   .post-footer .share {
     position: static;
-    width: auto; }
+    width: auto;
+  }
 
+  /* line 154, ../scss/theme/_media.scss */
   .post-footer .share a {
-    margin: 1.4rem 0.8rem 0 0.8rem; }
+    margin: 1.4rem 0.8rem 0 0.8rem;
+  }
 
+  /* line 158, ../scss/theme/_media.scss */
   .older-posts,
   .newer-posts {
     position: static;
-    margin: 10px 0; }
+    margin: 10px 0;
+  }
 
+  /* line 164, ../scss/theme/_media.scss */
   .page-number {
-    display: block; }
+    display: block;
+  }
 
+  /* line 168, ../scss/theme/_media.scss */
   .site-footer {
     margin-top: 6rem;
-    font-size: 1.1rem; } }
+    font-size: 1.1rem;
+  }
+}
 /*
 Animate.css - http://daneden.me/animate
 LICENSED UNDER THE  MIT LICENSE (MIT)
 
 Copyright (c) 2012 Dan Eden
 */
+/* line 180, ../scss/theme/_media.scss */
 .animated {
   -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-duration: 1s;
-  animation-duration: 1s; }
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+}
 
+/* line 193, ../scss/theme/_media.scss */
 .animated.hinge {
   -webkit-animation-duration: 2s;
-  animation-duration: 2s; }
+  -moz-animation-duration: 2s;
+  -ms-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+}
 
 @-webkit-keyframes bounceInDown {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-2000px); }
-  60% {
-    opacity: 1;
-    -webkit-transform: translateY(30px); }
-  80% {
-    -webkit-transform: translateY(-10px); }
-  100% {
-    -webkit-transform: translateY(0); } }
-@keyframes bounceInDown {
-  0% {
-    opacity: 0;
     -webkit-transform: translateY(-2000px);
-            transform: translateY(-2000px); }
+  }
   60% {
     opacity: 1;
     -webkit-transform: translateY(30px);
-            transform: translateY(30px); }
+  }
   80% {
     -webkit-transform: translateY(-10px);
-            transform: translateY(-10px); }
+  }
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0); } }
+  }
+}
+@-moz-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-2000px);
+  }
+  60% {
+    opacity: 1;
+    -moz-transform: translateY(30px);
+  }
+  80% {
+    -moz-transform: translateY(-10px);
+  }
+  100% {
+    -moz-transform: translateY(0);
+  }
+}
+@-o-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-2000px);
+  }
+  60% {
+    opacity: 1;
+    -o-transform: translateY(30px);
+  }
+  80% {
+    -o-transform: translateY(-10px);
+  }
+  100% {
+    -o-transform: translateY(0);
+  }
+}
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* line 281, ../scss/theme/_media.scss */
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
-  animation-name: bounceInDown; }
+  -moz-animation-name: bounceInDown;
+  -o-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
