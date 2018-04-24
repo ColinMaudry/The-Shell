@@ -5,7 +5,7 @@
 @font-face {
      font-family: 'Open Sans';
      src: url('../fonts/OpenSans-Regular-webfont.woff');
-     src: url('OpenSans-Regular-webfont.woff') format('woff');
+     src: url('../fonts/OpenSans-Regular-webfont.woff') format('woff');
      font-weight: normal;
      font-style: normal;
 }
@@ -13,15 +13,23 @@
 @font-face {
      font-family: 'Open Sans';
      src: url('../fonts/OpenSans-Bold-webfont.woff');
-     src: url('OpenSans-Bold-webfont.woff') format('woff');
+     src: url('../fonts/OpenSans-Bold-webfont.woff') format('woff');
      font-weight: bold;
      font-style: normal;
 }
 
 @font-face {
      font-family: 'Open Sans';
+     src: url('../fonts/OpenSans-Italic-webfont.woff');
+     src: url('../fonts/OpenSans-Italic-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: italic;
+}
+
+@font-face {
+     font-family: 'Open Sans';
      src: url('../fonts/OpenSans-BoldItalic-webfont.woff');
-     src: url('OpenSans-BoldItalic-webfont.woff') format('woff');
+     src: url('../fonts/OpenSans-BoldItalic-webfont.woff') format('woff');
      font-weight: bold;
      font-style: italic;
 }
