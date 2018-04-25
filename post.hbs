@@ -54,6 +54,13 @@
                 </section>
             {{/if}}
 
+            {{#if @labs.subscribers}}
+               <section class="author">
+                 <p>Tu peux me laisser ton adresse email si tu veux être averti des nouvelles parutions</p>
+                 {{subscribe_form placeholder="Your email address"}}
+               </section>
+             {{/if}}
+
             <!-- <section class="share">
                 <h4>Share this</h4>
                 <a class="icon-twitter" href="http://twitter.com/share?text={{title}}&url={{url absolute="true"}}"
