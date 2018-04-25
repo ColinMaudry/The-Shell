@@ -1132,3 +1132,13 @@ Copyright (c) 2012 Dan Eden
   -o-animation-name: bounceInDown;
   animation-name: bounceInDown;
 }
+
+/* line 1, ../scss/theme/_subscribe_form.scss */
+.subscribe-form {
+  margin-top: 24px;
+}
+/* line 3, ../scss/theme/_subscribe_form.scss */
+.subscribe-form button, .subscribe-form input {
+  margin-top: 12px;
+  font-size: 1.4rem;
+}
